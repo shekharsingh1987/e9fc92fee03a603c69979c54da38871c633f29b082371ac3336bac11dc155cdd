@@ -1,0 +1,13 @@
+<div>
+    {{welcomeMessage}}
+</div>
+
+<label class="rate-hit">
+    <input type="radio" ng-model="st.result" ng-value="1" ng-checked="st.result" ng-click="Update(1)">
+    On
+</label>
+&nbsp;&nbsp;
+<label class="rate-miss">
+    <input type="radio" ng-model="st.result" ng-value="0" ng-checked="!st.result" ng-click="Update(0)">
+    Off
+</label>
